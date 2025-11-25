@@ -89,6 +89,7 @@ $q_sold = mysqli_query($conn, "SELECT * FROM products $where_sold ORDER BY id DE
   </div>
   <?php endif; ?>
 </div>
+<script src="category.js"></script>
 <?php include "footer.php"; ?>
 </body>
 </html>
